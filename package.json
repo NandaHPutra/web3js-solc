@@ -1,0 +1,34 @@
+{
+  "name": "web3js",
+  "version": "1.0.0",
+  "description": "test web3",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.dev.js --color --progress --watch"
+  },
+  "repository": "git+https://NandaPutra@bitbucket.org/NandaPutra/web3js.git",
+  "keywords": [
+    "web3",
+    "truffle",
+    "nft"
+  ],
+  "author": "nanda.h.putra@gmail.com",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/NandaPutra/web3js#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "axios": "^0.24.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "keccak256": "^1.0.6",
+    "mocha": "^9.1.3",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {}
+}
